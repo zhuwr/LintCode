@@ -18,8 +18,8 @@ public class Solution {
         // write your code here
         if(stack2.isEmpty()) {
             while(!stack1.isEmpty()){
-                stack2.push(stack1.peek());
-                stack1.pop();
+                stack2.push(stack1.pop());
+
             }
         }
         return stack2.pop();
@@ -29,12 +29,14 @@ public class Solution {
     public int top() {
         // write your code here
         if(stack2.isEmpty()){
-        while(!stack1.isEmpty()) {
-            stack2.push(stack1.peek());
-            stack1.pop();
-        }}
+            while(!stack1.isEmpty()) {
+            stack2.push(stack1.pop());
+            }
+        }
         return stack2.peek();
 
+    }
+}
     }
 }
 
