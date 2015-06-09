@@ -23,7 +23,6 @@ public class Solution {
             }
         }
         return stack2.pop();
-         
     }
 
     public int top() {
@@ -34,7 +33,6 @@ public class Solution {
             }
         }
         return stack2.peek();
-
     }
 }
     }
