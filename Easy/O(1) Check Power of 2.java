@@ -6,7 +6,6 @@ class Solution {
     public boolean checkPowerOf2(int n) {
         // write your code here
         int index = 0;
-        
         while(n > Math.pow(2,index)) {
             index++;
         }
