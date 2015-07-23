@@ -24,7 +24,7 @@ public:
         stack2.pop();
         return ret;
     }
-
+    
     int top() {
         // write your code here
         if(stack2.empty()) {
